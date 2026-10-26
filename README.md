@@ -111,6 +111,14 @@ You can later add a custom domain via repository **Settings → Pages → Custom
 - [ ] Complete the payment gateway's KYC and test successful, cancelled and failed payments in the provider dashboard.
 - [ ] Test new bookings, rescheduling, confirmation emails and time-zone handling.
 - [ ] Confirm no scripts from untrusted sources, API secrets or client files are committed.
+- [ ] Edit the `og:` and `twitter:` tags by hand in `index.html`. Social link previews do NOT run
+      JavaScript, so `config.js` cannot do this for you. Test with the LinkedIn Post Inspector and by
+      sending yourself the link on WhatsApp.
+- [ ] Replace `YOUR-USERNAME` and the repo name in `index.html` (canonical and og:url), `robots.txt`
+      and `sitemap.xml`.
+- [ ] Fill every `[BRACKETED FIELD]` in `privacy.html` and `terms.html`.
+- [ ] Claim and verify the Google Business Profile. This will drive more first appointments than the
+      website itself.
 - [ ] Set `demoMode: false`.
 - [ ] Open the site on a phone and check navigation, FAQ, booking widget and payment.
 
