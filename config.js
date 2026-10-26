@@ -99,7 +99,7 @@ window.PRACTICE_CONFIG = {
     Set mode to "demo" to draw the sample calendar instead of the real one.
     Set mode to "link" if the embed is blocked on any network.
   */
-  booking: {
+    booking: {
     mode: "iframe",
     embedUrl: "https://counselling1.zohobookings.in/portal-embed#/487670000000030009",
     pageUrl:  "https://counselling1.zohobookings.in/487670000000030009"
